@@ -116,9 +116,59 @@ def job():
     conn.commit()
     conn.close()
 
+def update_daily_summary():
+    try:
+        conn = sqlite3.connect('weather.db')
+        cursor = conn.cursor()
+        
+        # Create the daily summary table if not exists
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS daily_summary (
+                city TEXT,
+                date TEXT,
+                avg_temp REAL,
+                min_temp REAL,
+                max_temp REAL,
+                PRIMARY KEY (city, date)
+            )
+        ''')
+        
+        # Aggregate data from weather table
+        cursor.execute('''
+            SELECT city, DATE(date), AVG(temp), MIN(temp), MAX(temp)
+            FROM weather
+            GROUP BY city, DATE(date)
+        ''')
+        
+        rows = cursor.fetchall()
+        
+        for row in rows:
+            city, date, avg_temp, min_temp, max_temp = row
+            
+            # Insert or update summary table
+            cursor.execute('''
+                INSERT INTO daily_summary (city, date, avg_temp, min_temp, max_temp)
+                VALUES (?, ?, ?, ?, ?)
+                ON CONFLICT(city, date) DO UPDATE SET
+                    avg_temp = excluded.avg_temp,
+                    min_temp = excluded.min_temp,
+                    max_temp = excluded.max_temp
+            ''', (city, date, avg_temp, min_temp, max_temp))
+        
+        conn.commit()
+        print("Daily summary updated successfully.")
+    
+    except Exception as e:
+        print(f"Error updating daily summary: {e}")
+    
+    finally:
+        conn.close()
+     
+
 # === Scheduling ===
 schedule.every(1).minutes.do(job)
-schedule.every().day.at("23:29").do(export_weather_to_csv)
+schedule.every().day.at("12:47").do(update_daily_summary)
+schedule.every().day.at("12:47").do(export_weather_to_csv)
 
 # === Run loop ===
 while True:

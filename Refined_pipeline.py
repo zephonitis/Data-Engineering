@@ -40,10 +40,14 @@ def export_weather_to_csv():
 
         logging.info(f"Exported weather data to {filename}")
         print(f"Exported to {filename}")
-        conn.close()
+        
     except Exception as e:
         logging.error(f"Export failed: {e}")
         print("Export failed. Check logs.")
+        
+    finally:
+        if conn:
+            conn.close()
 
 # === Fetching + Storing function ===
 def job():
@@ -69,6 +73,8 @@ def job():
         )
     ''')
 
+    skipped_count = 0
+    
     for city in cities:
         try:
             url = f"https://wttr.in/{city}?format=j1"
@@ -80,6 +86,11 @@ def job():
             condition = current['weatherDesc'][0]['value']
             temp = float(current['temp_C'])
             date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            
+            if not city.strip() or not condition.strip() or temp < -50 or temp > 60:
+                logging.warning(f"Invalid data skipped for {city}: temp={temp}, condition={condition}")
+                skipped_count += 1 
+                continue
 
             if temp > 20:
                 # Insert weather
@@ -112,6 +123,9 @@ def job():
         except Exception as e:
             logging.critical(f"Unexpected error for {city}: {e}")
             print(f"Unexpected error for {city}")
+            
+        logging.info(f"Skipped {skipped_count} records in this run.")
+        print(f"Total records skipped: {skipped_count}")
 
     conn.commit()
     conn.close()
@@ -123,12 +137,13 @@ def update_daily_summary():
         
         # Create the daily summary table if not exists
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS daily_summary (
+            CREATE TABLE IF NOT EXISTS daily_summary_new (
                 city TEXT,
                 date TEXT,
                 avg_temp REAL,
                 min_temp REAL,
                 max_temp REAL,
+                category TEXT,
                 PRIMARY KEY (city, date)
             )
         ''')
@@ -145,18 +160,27 @@ def update_daily_summary():
         for row in rows:
             city, date, avg_temp, min_temp, max_temp = row
             
+            if avg_temp >= 30:
+                category = "Hot"
+            elif avg_temp >= 20:
+                category = "Warm"
+            else:
+                category = "Cool"
+            
             # Insert or update summary table
             cursor.execute('''
-                INSERT INTO daily_summary (city, date, avg_temp, min_temp, max_temp)
-                VALUES (?, ?, ?, ?, ?)
+                INSERT INTO daily_summary_new (city, date, avg_temp, min_temp, max_temp, category)
+                VALUES (?, ?, ?, ?, ?, ?)
                 ON CONFLICT(city, date) DO UPDATE SET
                     avg_temp = excluded.avg_temp,
                     min_temp = excluded.min_temp,
-                    max_temp = excluded.max_temp
-            ''', (city, date, avg_temp, min_temp, max_temp))
+                    max_temp = excluded.max_temp,
+                    category = excluded.category
+            ''', (city, date, avg_temp, min_temp, max_temp, category))
         
         conn.commit()
         print("Daily summary updated successfully.")
+        
     
     except Exception as e:
         print(f"Error updating daily summary: {e}")
@@ -167,8 +191,8 @@ def update_daily_summary():
 
 # === Scheduling ===
 schedule.every(1).minutes.do(job)
-schedule.every().day.at("12:47").do(update_daily_summary)
-schedule.every().day.at("12:47").do(export_weather_to_csv)
+schedule.every().day.at("15:54").do(update_daily_summary)
+schedule.every().day.at("15:55").do(export_weather_to_csv)
 
 # === Run loop ===
 while True:

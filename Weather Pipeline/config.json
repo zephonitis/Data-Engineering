@@ -1,0 +1,9 @@
+{
+    "cities": ["Tokyo", "Chennai", "London", "Kolkata", "Delhi", "Mumbai", "Auckland"],
+    "temperature_thresholds": {
+      "hot": 30,
+      "warm": 20
+    },
+    "output_folder": "reports"
+}
+  

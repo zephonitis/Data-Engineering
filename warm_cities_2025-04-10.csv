@@ -1,0 +1,157 @@
+City,Date,Condition,Temperature,Category
+Hyderabad,2025-04-09 15:21:05,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:21:06,Haze,32.0,Hot
+Chennai,2025-04-09 15:21:07,Partly cloudy,32.0,Hot
+Tokyo,2025-04-09 15:21:09,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:26:11,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:26:12,Haze,32.0,Hot
+Chennai,2025-04-09 15:26:13,Partly cloudy,32.0,Hot
+Tokyo,2025-04-09 15:26:16,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:31:23,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:31:28,Haze,32.0,Hot
+Chennai,2025-04-09 15:31:31,Partly cloudy,32.0,Hot
+Tokyo,2025-04-09 15:31:38,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:36:46,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:36:47,Haze,32.0,Hot
+Chennai,2025-04-09 15:36:51,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 15:36:58,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:42:00,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:42:07,Haze,32.0,Hot
+Chennai,2025-04-09 15:42:13,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 15:42:29,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:47:34,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:47:37,Haze,32.0,Hot
+Chennai,2025-04-09 15:47:38,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 15:47:40,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:53:00,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:53:06,Haze,32.0,Hot
+Chennai,2025-04-09 15:53:08,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 15:53:16,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 15:58:26,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 15:58:29,Haze,32.0,Hot
+Chennai,2025-04-09 15:58:31,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 15:58:34,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 16:03:37,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:03:38,Haze,32.0,Hot
+Chennai,2025-04-09 16:03:40,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 16:03:48,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 16:08:51,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:08:52,Haze,32.0,Hot
+Chennai,2025-04-09 16:08:53,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 16:08:57,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 16:14:07,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:14:08,Haze,32.0,Hot
+Chennai,2025-04-09 16:14:15,Partly cloudy,34.0,Hot
+Tokyo,2025-04-09 16:14:17,Partly cloudy,21.0,Warm
+Hyderabad,2025-04-09 16:20:49,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:20:50,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:20:51,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:25:55,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:25:56,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:25:57,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:31:02,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:31:03,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:31:04,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:36:10,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:36:11,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:36:12,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:41:20,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:41:21,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:41:22,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:46:27,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:46:28,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:46:29,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:51:34,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:51:35,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:51:36,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 16:56:40,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 16:56:41,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 16:56:42,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:01:47,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:01:49,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:01:50,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:06:54,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:06:55,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:06:56,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:12:01,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:12:03,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:12:04,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:17:08,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:17:10,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:17:12,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:22:24,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:22:25,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:22:28,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:27:33,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:27:34,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:27:35,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:32:39,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:32:40,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:32:41,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:37:46,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:37:47,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:37:50,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:42:57,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:42:58,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:42:59,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:48:04,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:48:05,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:48:06,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:53:12,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:53:13,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:53:14,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 17:58:19,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 17:58:20,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 17:58:21,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:03:26,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:03:27,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:03:28,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:08:34,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:08:35,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:08:36,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:13:40,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:13:41,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:13:42,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:39:02,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:39:03,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:39:05,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:44:09,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:44:10,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:44:11,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:49:20,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:49:22,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:49:23,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:54:32,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:54:34,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:54:36,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 18:59:42,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 18:59:44,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 18:59:45,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 19:04:50,Partly cloudy,34.0,Hot
+Kolkata,2025-04-09 19:04:51,Partly cloudy,34.0,Hot
+Chennai,2025-04-09 19:04:53,Partly cloudy,34.0,Hot
+Hyderabad,2025-04-09 22:06:54,Partly cloudy,30.0,Hot
+Kolkata,2025-04-09 22:06:55,Haze,29.0,Warm
+Chennai,2025-04-09 22:06:56,Partly cloudy,29.0,Warm
+Hyderabad,2025-04-09 22:55:36,Partly cloudy,30.0,Hot
+Kolkata,2025-04-09 22:55:38,Haze,29.0,Warm
+Chennai,2025-04-09 22:55:39,Partly cloudy,29.0,Warm
+Hyderabad,2025-04-09 23:00:46,Partly cloudy,30.0,Hot
+Kolkata,2025-04-09 23:00:48,Haze,29.0,Warm
+Chennai,2025-04-09 23:00:49,Partly cloudy,29.0,Warm
+Hyderabad,2025-04-09 23:05:54,Partly cloudy,30.0,Hot
+Kolkata,2025-04-09 23:05:55,Haze,29.0,Warm
+Chennai,2025-04-09 23:05:56,Partly cloudy,29.0,Warm
+Hyderabad,2025-04-09 23:11:00,Partly cloudy,30.0,Hot
+Kolkata,2025-04-09 23:11:01,Haze,29.0,Warm
+Chennai,2025-04-09 23:11:03,Partly cloudy,29.0,Warm
+Hyderabad,2025-04-10 15:45:16,Partly cloudy,36.0,Hot
+Kolkata,2025-04-10 15:45:20,Haze,33.0,Hot
+Chennai,2025-04-10 15:45:25,Partly cloudy,35.0,Hot
+Hyderabad,2025-04-10 15:49:20,Partly cloudy,36.0,Hot
+Kolkata,2025-04-10 15:49:23,Haze,33.0,Hot
+Chennai,2025-04-10 15:49:35,Partly cloudy,35.0,Hot
+Hyderabad,2025-04-10 15:51:39,Partly cloudy,36.0,Hot
+Kolkata,2025-04-10 15:51:49,Haze,33.0,Hot
+Kolkata,2025-04-10 15:54:03,Haze,33.0,Hot
+Chennai,2025-04-10 15:54:08,Partly cloudy,35.0,Hot

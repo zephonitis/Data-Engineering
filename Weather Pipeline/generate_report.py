@@ -27,7 +27,7 @@ def generate_weather_report(thresholds, output_folder="reports", db_path='weathe
                 cold_cities += 1
         
         report = [
-            "📊 Weather Summary Report",
+            "Weather Summary Report",
             "-------------------------",
             f"Hot cities : {hot_cities}",
             f"Warm cities : {warm_cities}",

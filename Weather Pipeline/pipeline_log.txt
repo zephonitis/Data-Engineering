@@ -1,0 +1,197 @@
+Traceback (most recent call last):
+  File "C:\Users\ashwi\OneDrive\Desktop\DE\Weather Pipeline\main.py", line 28, in <module>
+    print("\u23f3 Cleaning and storing data...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u23f3' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\ashwi\OneDrive\Desktop\DE\Weather Pipeline\main.py", line 28, in <module>
+    print("\u23f3 Cleaning and storing data...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u23f3' in position 0: character maps to <undefined>
+=== Pipeline Run: 23-04-2025 18:28:28.76 === 
+Traceback (most recent call last):
+  File "C:\Users\ashwi\OneDrive\Desktop\DE\Weather Pipeline\main.py", line 28, in <module>
+    print("\u23f3 Cleaning and storing data...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u23f3' in position 0: character maps to <undefined>
+ 
+=== Pipeline Run: 23-04-2025 18:31:24.92 === 
+Cleaning and storing data...
+Cleaning done in 0.0641 seconds
+
+Generating weather report...
+Traceback (most recent call last):
+  File "C:\Users\ashwi\OneDrive\Desktop\DE\Weather Pipeline\main.py", line 38, in <module>
+    generate_weather_report(thresholds=thresholds, output_folder=output_folder, db_path=db_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwi\OneDrive\Desktop\DE\Weather Pipeline\generate_report.py", line 40, in generate_weather_report
+    print(report_text)
+    ~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ashwi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 0: character maps to <undefined>
+ 
+=== Pipeline Run: 23-04-2025 18:36:35.56 === 
+Cleaning and storing data...
+Cleaning done in 0.0201 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 3
+Warm cities : 3
+Cold cities : 3
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-04-23_18-36-35.txt
+Report generated in 0.0029 seconds
+
+Total pipeline execution time: 0.0286 seconds
+ 
+=== Pipeline Run: 23-04-2025 18:38:08.81 === 
+Cleaning and storing data...
+Cleaning done in 0.0344 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 4
+Warm cities : 4
+Cold cities : 4
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-04-23_18-38-09.txt
+Report generated in 0.0040 seconds
+
+Total pipeline execution time: 0.0672 seconds
+ 
+=== Pipeline Run: 28-04-2025 11:38:26.12 === 
+Cleaning and storing data...
+Cleaning done in 0.0555 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 5
+Warm cities : 5
+Cold cities : 5
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-04-28_11-38-28.txt
+Report generated in 0.0207 seconds
+
+Total pipeline execution time: 0.0944 seconds
+ 
+=== Pipeline Run: 30-04-2025 10:06:22.51 === 
+Cleaning and storing data...
+Cleaning done in 0.0582 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 6
+Warm cities : 6
+Cold cities : 6
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-04-30_10-06-23.txt
+Report generated in 0.0035 seconds
+
+Total pipeline execution time: 0.0761 seconds
+ 
+=== Pipeline Run: 01-05-2025 10:00:02.19 === 
+Cleaning and storing data...
+Cleaning done in 0.0795 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 7
+Warm cities : 7
+Cold cities : 7
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-05-01_10-00-03.txt
+Report generated in 0.0032 seconds
+
+Total pipeline execution time: 0.1008 seconds
+ 
+=== Pipeline Run: 05-05-2025 11:19:47.50 === 
+Cleaning and storing data...
+Cleaning done in 0.0923 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 8
+Warm cities : 8
+Cold cities : 8
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-05-05_11-19-52.txt
+Report generated in 0.0033 seconds
+
+Total pipeline execution time: 0.1163 seconds
+ 
+=== Pipeline Run: 06-05-2025 10:00:02.95 === 
+=== Pipeline Run: 07-05-2025 10:00:02.17 === 
+Cleaning and storing data...
+Cleaning done in 0.1448 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 9
+Warm cities : 9
+Cold cities : 9
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-05-07_10-00-03.txt
+Report generated in 0.0042 seconds
+
+Total pipeline execution time: 0.1645 seconds
+ 
+=== Pipeline Run: 08-05-2025 10:00:02.11 === 
+Cleaning and storing data...
+Cleaning done in 0.0542 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 10
+Warm cities : 10
+Cold cities : 10
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-05-08_10-00-03.txt
+Report generated in 0.0039 seconds
+
+Total pipeline execution time: 0.0762 seconds
+ 
+=== Pipeline Run: 09-05-2025 10:00:02.24 === 
+Cleaning and storing data...
+Cleaning done in 0.1000 seconds
+
+Generating weather report...
+Weather Summary Report
+-------------------------
+Hot cities : 11
+Warm cities : 11
+Cold cities : 11
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
+Report saved to reports\weather_report_2025-05-09_10-00-04.txt
+Report generated in 0.0037 seconds
+
+Total pipeline execution time: 0.1376 seconds
+ 

@@ -1,0 +1,7 @@
+Weather Summary Report
+-------------------------
+Hot cities : 5
+Warm cities : 5
+Cold cities : 5
+Hottest City : Delhi (38.2°C)
+Coldest City : Auckland (17.0°C)
